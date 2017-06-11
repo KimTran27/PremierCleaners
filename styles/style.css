@@ -1,6 +1,6 @@
-* {
-  outline: 1px solid red;
-}
+/** {
+  outline: 1px solid blue;
+}*/
 /* ------------------------------------------- */
 /* Reset CSS - don't edit anything in this section
 /* ------------------------------------------- */
@@ -129,7 +129,6 @@ a {
   line-height: 1.35;
   margin: 3.375rem 0; }
   .text-content blockquote:before {
-    border-bottom: 2px solid black;
     content: '';
     display: block;
     margin: 2rem 0;
@@ -343,12 +342,18 @@ a {
 /* ------------------------------------------- */
 /* Services
 /* ------------------------------------------- */
+#about2 {
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%), url(../images/persimmon.jpg); }
 .services .description small {
   font-family: Georgia, serif;
   font-size: 1.05rem;
   float: right;
+  color: black; }
+.services li {
+  line-height: 1.4rem;
 }
 .services .item {
+  color: black;
   margin: 0 auto;
   max-width: 1150px; }
   @media (min-width: 768px) {
@@ -795,7 +800,7 @@ a {
 /* Callout
 /* ------------------------------------------- */
 .callout {
-  background: black;
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%), url(../images/flowah.jpg); 
   color: white;
   text-align: center; }
   .callout .offer {
