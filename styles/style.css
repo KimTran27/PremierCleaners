@@ -1,3 +1,6 @@
+* {
+  outline: 1px solid red;
+}
 /* ------------------------------------------- */
 /* Reset CSS - don't edit anything in this section
 /* ------------------------------------------- */
@@ -93,10 +96,16 @@ a {
 /* Text content
 /* Styles for user-entered content
 /* ------------------------------------------- */
-.text-content th {
+.text-content p span {
   display: block;
   font-size: 1.875rem;
   font-weight: 300;
+}
+
+.text-content td {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 30;
 }
 .text-content p {
   line-height: 1.6875;
@@ -334,6 +343,11 @@ a {
 /* ------------------------------------------- */
 /* Services
 /* ------------------------------------------- */
+.services .description small {
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+  float: right;
+}
 .services .item {
   margin: 0 auto;
   max-width: 1150px; }
@@ -911,12 +925,11 @@ a {
 /* Related items
 /* ------------------------------------------- */
 .related {
-  background: #F8DB9A; }
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%), url(../images/nature.jpg); }
 
 .related-items {
   color: black;
-  margin: 0;
-  max-width: 1150px; }
+  margin: 0; }
   @media (min-width: 768px) {
     .related-items {
       display: -webkit-flex; 
