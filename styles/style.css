@@ -164,6 +164,7 @@ a {
       background: #F8DB9A;
       color: black; }
   .button.light {
+    float: right;
     background: white;
     color: black; }
     .button.light:hover {
