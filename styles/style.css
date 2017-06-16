@@ -959,7 +959,40 @@ a {
       display: block;
       margin: 0.8125rem auto;
       width: 3.4375rem; }
+/* ------------------------------------------- */
+/* Coupon items
+/* ------------------------------------------- */
+.coupon {
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%), url(../images/singer.jpg); }
 
+.coupon-items {
+  color: black;
+  margin: 0; }
+  @media (min-width: 768px) {
+    .coupon-items {
+      font-size: 15px;
+      display: -webkit-flex; 
+      display: flex; 
+      -webkit-justify-content: center;
+      justify-content: center; } }
+  .coupon-items li {
+    margin-bottom: 2.5rem;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .coupon-items li {
+        width: 51.73913%; } }
+  .coupon-items a {
+    color: black;
+    text-decoration: none; }
+  .coupon-items h3 {
+    font-size: 2.25rem;
+    font-weight: 700; }
+    .coupon-items h3:after {
+      border-bottom: 2px solid black;
+      content: '';
+      display: block;
+      margin: 0.8125rem auto;
+      width: 3.4375rem; }
 /* ------------------------------------------- */
 /* Full-width content section
 /* ------------------------------------------- */
